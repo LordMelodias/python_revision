@@ -27,3 +27,18 @@ for i in range(2,101):
     if is_prime:
         print(i)
         
+print("--------------------------------------------")
+# Print prime number from 1 to 100 using while loop
+b =2
+c =2
+while b<=100:
+    is_prime = True
+    while c<b:
+        if b%c==0:
+            is_prime = False
+            break
+        c+=1
+    if is_prime:
+        print(b, end=' ')  
+    b+=1
+        
