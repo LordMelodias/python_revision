@@ -4,7 +4,7 @@ print(dict1)
 print(type(dict1))
 # %s mean string
 print("Developer: %s" %dict1[1])
-# %d mean decimal
+# %d mean integers
 print("Birth Year: %d" %dict1['birth'])
 print("Python: %s" %dict1['Framework'])
 
