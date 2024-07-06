@@ -26,4 +26,17 @@ print(list2)
 list1.clear()
 print(list1)
 
-
+emp=["Rohit", 666, "India"]
+Dep1 = ["CS", 12]
+Dep2 = ["IT", 54]
+Hod_CS = [50, "Mr_Surya"]
+Hod_IT = [70, "Mr_Riya"]
+print("Employee Name: %s, ID: %d, Country: %s" %(emp[0], emp[1], emp[2]))
+print("Department 1:")
+print("Name: %s, ID: %d" %(Dep1[0], Dep1[1]))
+print("Department 2:")
+print("Name: %s, ID: %d" %(Dep2[0], Dep2[1]))
+print("Computer Science Department: ")
+print("Name: %s, ID: %d" %(Hod_CS[1], Hod_CS[0]))
+print("Information Technology Department: ")
+print("Name: %s, ID: %d" %(Hod_IT[1], Hod_IT[0]))
