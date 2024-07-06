@@ -1,3 +1,4 @@
+# break in number
 i = 0
 while 1:
     print(i, ' ', end='/')
@@ -6,6 +7,7 @@ while 1:
         break
 print("When 5 came it break loop")
 
+# break in string
 str1 = 'Python'
 for char in str1:
     if char=='o':
@@ -13,6 +15,7 @@ for char in str1:
     print(char)
     
 
+# Print Table 
 n = 2
 while True:
     i = 1
