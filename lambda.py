@@ -18,3 +18,8 @@ for i in range(1,11):
     table = lambda x: num*x
     print(table(i))
  
+# Example: print even number
+for i in range(2, 100):
+   if i%2==0:
+      even = lambda y: y
+      print(even(i))
